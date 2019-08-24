@@ -1,0 +1,32 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+
+.download-pdf {
+  margin-left: 1rem;
+}
+
+.download-excel {
+  margin-left: 1rem;
+  background: rgb(6, 63, 85);
+  color: white;
+}
+
+.chart {
+  margin-left: 1rem;
+}
